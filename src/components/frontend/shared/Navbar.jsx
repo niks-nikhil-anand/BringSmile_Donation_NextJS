@@ -16,48 +16,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-black text-white">
-      {/* Top Bar */}
-      <div className="flex flex-col sm:flex-row justify-between items-center px-4 py-2 text-sm">
-        <div className="text-center sm:text-left">
-          Helping today <span className="text-red-500">❤</span> Helping tomorrow
-        </div>
-        <div className="flex flex-wrap justify-center sm:justify-end space-x-4 mt-2 sm:mt-0">
-          <span className="hidden sm:block">Email: support@bringsmile.in</span>
-          <span className="hidden sm:block">Phone: (0312) 747-858</span>
-          <span className="hidden sm:block">|</span>
-          <span className="hidden md:block">Social network:</span>
-          <div className="md:flex hidden  space-x-2">
-            <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="#"
-              className="hover:text-yellow-400"
-            >
-              <FaFacebookF />
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="#"
-              className="hover:text-yellow-400"
-            >
-              <FaTwitter />
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="#"
-              className="hover:text-yellow-400"
-            >
-              <FaYoutube />
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.2 }}
-              href="#"
-              className="hover:text-yellow-400"
-            >
-              <FaInstagram />
-            </motion.a>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Main Navbar */}
       <nav className="flex justify-between items-center px-6  bg-white text-black">
